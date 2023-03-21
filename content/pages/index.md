@@ -156,9 +156,13 @@ blocks:
     _template: tailwindCards
 backgroundColor: gray-light
 meta:
-  title: Microgen
-  description: ''
+  title: 'FILVC Demo Day March 21, 2023'
+  description: >-
+    Held entirely online, this exclusive invite-only event offers a unique
+    opportunity for investors to hear from and connect with some of the most
+    promising and innovative startups in Web3 in a concentrated Demo Day.
 ---
+
 
 
 
