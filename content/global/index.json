@@ -1,0 +1,52 @@
+{
+  "siteUrl": "microgen.site",
+  "gtmId": "",
+  "fathomSiteId": "",
+  "theme": "content/themes/microgen.md",
+  "logo": {
+    "logoTypeStyle": "undefined undefined ",
+    "image": "/uploads/filvc-logo.svg",
+    "imageWidth": "250"
+  },
+  "nav": {
+    "navItems": [
+      {
+        "label": "Request Invite",
+        "link": "/"
+      }
+    ],
+    "navAlignment": "text-right",
+    "navTypeStyle": "text-black  ",
+    "navBackgroundColor": " opacity-100",
+    "padding": "pt-14 pb-10 pr-20 pl-20"
+  },
+  "blocks": [
+    {
+      "tailwind": {
+        "section": "relative w-full max-w-site-full mx-auto py-4 px-20 sm:px-5 mb-10 sm:mb-0",
+        "wrap": "",
+        "imageWrap": "",
+        "image": "",
+        "contentWrap": "",
+        "content": "flex",
+        "label": "",
+        "headline": "",
+        "subhead": "",
+        "text": "text-black mg-copy w-1/2",
+        "buttons": "w-1/2 text-right",
+        "button": "btn-primary"
+      },
+      "label": "",
+      "headline": "",
+      "subhead": "",
+      "body": "© FILVC 2022. Powered by Protocol Labs.\n",
+      "buttons": [
+        {
+          "label": "Request Invite",
+          "link": "/"
+        }
+      ],
+      "_template": "tailwindFeature"
+    }
+  ]
+}
