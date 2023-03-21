@@ -30,6 +30,7 @@ export const SectionListItemsPlugin = {
         cards: 'Cards',
         tailwindCards: 'Cards TW',
         tailwindFeature: 'Feature TW',
+        logos: 'Logos',
       }
       const sectionName = item.headline || item.subhead || item.label || item.title || ''
       const sectionNameShort = sectionName.match(/^.{24}\w*/)
@@ -56,7 +57,12 @@ export const itemListFieldPlugin = {
     const field = {
       ...props.field,
       itemProps: (item) => {
-        return { label: item.headline || item.subhead || item.label }
+        const getFileName = (url) => {
+          const filename = url.substring(url.lastIndexOf('/') + 1)
+          return filename ? filename : null
+        }
+        const source = item.src ? getFileName(item.src) : ''
+        return { label: item.headline || item.subhead || item.label || source }
       },
     }
     return <GroupListField {...props} field={field} />

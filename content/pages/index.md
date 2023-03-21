@@ -81,6 +81,29 @@ blocks:
         subhead: ''
         body: ''
     _template: cards
+  - style:
+      padding: 'pt-10 pb-0 pr-20 pl-20 sm:pt-5 sm:pb-10 sm:pr-5 sm:pl-5'
+      labelStyles: text-black undefined undefined
+      headlineStyles: text-black undefined undefined
+      subheadStyles: text-black undefined undefined
+      textStyles: text-black undefined undefined
+    headline: ''
+    subhead: ''
+    body: ''
+    items:
+      - src: /uploads/logo-aave.jpg
+      - src: /uploads/logo-alliance.jpg
+      - src: /uploads/logo-amber.jpg
+      - src: /uploads/logo-andereessen-horowitz.jpg
+      - src: /uploads/logo-angellist.jpg
+      - src: /uploads/logo-animoca.jpg
+      - src: /uploads/logo-archetype.jpg
+      - src: /uploads/logo-big-brain-holdings.jpg
+      - src: /uploads/logo-blue-yard.jpg
+      - src: /uploads/logo-coinbase.jpg
+      - src: /uploads/logo-coinfund.jpg
+      - src: /uploads/logo-collab-currency.jpg
+    _template: logos
   - tailwind:
       section: 'relative w-full max-w-site-full mx-auto pt-20 px-20 pb-4 sm:p-5'
       wrap: border-t-1 border-b-1 border-gray pt-12 pb-6
@@ -136,6 +159,8 @@ meta:
   title: Microgen
   description: ''
 ---
+
+
 
 
 
