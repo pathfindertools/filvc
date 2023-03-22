@@ -40,6 +40,9 @@ export default function ThemePage(
     variables: props.variables,
     data: props.data,
   });
+  return (
+    <div>Theme</div>
+  )
   if (data) {
     return (
       <ThemeLayout theme={data.theme}>
