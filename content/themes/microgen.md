@@ -15,8 +15,7 @@ colors:
 typo:
   - label: Copy
     typography: >-
-      {"family":"Suisse
-      Intl","size":"16","lineHeight":"21","letterSpacing":"0","margin":"20","smSize":"16","smLineHeight":"21","smLetterSpacing":"0","smMargin":"20"}
+      {"family":"Lora:wght@400","size":"16","lineHeight":"21","letterSpacing":"0","margin":"20","smSize":"16","smLineHeight":"21","smLetterSpacing":"0","smMargin":"20"}
   - label: Headline Small
     typography: >-
       {"family":"Suisse
@@ -44,6 +43,7 @@ buttons:
     primaryRounded: rounded-none
 linkColor: primary
 ---
+
 
 
 
